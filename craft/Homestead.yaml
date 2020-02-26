@@ -1,0 +1,20 @@
+ip: 192.168.10.10
+memory: 2048
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: /Users/elliotisaac/Sites/EV/craft
+        to: /home/vagrant/code/ev
+sites:
+    -
+        map: ev.test
+        to: /home/vagrant/code/ev/web
+        php: "7.1"
+databases:
+    - homestead
+name: ev
+hostname: ev
