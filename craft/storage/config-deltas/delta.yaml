@@ -1,0 +1,40 @@
+dateApplied: '2020-02-25 22:49:54'
+changes:
+  -
+    added:
+      fieldGroups.d3a6b424-0cb0-42d9-9b88-af09de747c51.name: Common
+  -
+    added:
+      siteGroups.a1a21603-ea66-47ba-b7db-32a22cdd96d5.name: 'Envisioning Justice'
+  -
+    added:
+      sites.0835bdac-be2e-4d15-9ed2-bfb0451f56bb.baseUrl: $DEFAULT_SITE_URL
+      sites.0835bdac-be2e-4d15-9ed2-bfb0451f56bb.handle: default
+      sites.0835bdac-be2e-4d15-9ed2-bfb0451f56bb.hasUrls: true
+      sites.0835bdac-be2e-4d15-9ed2-bfb0451f56bb.language: en-US
+      sites.0835bdac-be2e-4d15-9ed2-bfb0451f56bb.name: 'Envisioning Justice'
+      sites.0835bdac-be2e-4d15-9ed2-bfb0451f56bb.primary: true
+      sites.0835bdac-be2e-4d15-9ed2-bfb0451f56bb.siteGroup: a1a21603-ea66-47ba-b7db-32a22cdd96d5
+      sites.0835bdac-be2e-4d15-9ed2-bfb0451f56bb.sortOrder: 1
+  -
+    added:
+      dateModified: 1582670992
+  -
+    added:
+      email.fromEmail: eisaac22@gmail.com
+      email.fromName: 'Envisioning Justice'
+      email.transportType: craft\mail\transportadapters\Sendmail
+  -
+    added:
+      system.edition: solo
+      system.name: 'Envisioning Justice'
+      system.live: true
+      system.schemaVersion: 3.4.9
+      system.timeZone: America/Los_Angeles
+  -
+    added:
+      users.requireEmailVerification: true
+      users.allowPublicRegistration: false
+      users.defaultGroup: null
+      users.photoVolumeUid: null
+      users.photoSubpath: ''
